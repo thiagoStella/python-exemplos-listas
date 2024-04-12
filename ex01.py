@@ -1,7 +1,7 @@
-'''Crie uma lista com números de 1 a 10 e, em seguida, imprima apenas os números pares'''
-
-numeros = list(range(1,11))
-for num in numeros:
-    if num % 2 == 0:
-        print(num)
-        
+lista = [5, 7, 3, 6]
+lista.cont(0)
+pos = 2
+for i in range(len(lista)-1, pos-1, -1):
+    lista[i] = lista[i-1]
+    lista[pos] = 8
+    print('lista')
